@@ -1,38 +1,104 @@
 .App {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 12px;
+  color: #f9f9f9;
+}
+
+h1, h6 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h6 {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3, h6 {
+  margin: 12px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
+  color: #395973;
+  border: 1px solid #395973;
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+  margin: 12px;
+}
+
+.form label, p {
+  background-color: #f9f9f9;
+}
+
+.form label, input {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.form input, textarea, select {
+  width: 100%;
+  margin-bottom: 0;
+  color: #395973;
+  background-color: #fff;
+  border: 0.3px solid #395973;
+  border-radius: 3px;
+}
+
+.form input::placeholder{
+  color: #395973;
+}
+
+.form textarea {
+  margin-bottom: 3px;
+  height: 100px;
+}
+
+.form .inputText {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: small;
 }
 
-.App-link {
-  color: #61dafb;
+.form .radio {
+  float: left;
+  padding: 0;
+  margin: auto;
+  width: 7%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form p {
+  font-size: x-small;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+hr {
+  height: .1px;
+  background-color: #395973;
+  border: none;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 12px;
+  margin-top: 7px;
+  background-color: #305973;
+  color: #DBE4C6;
+  border: 1px solid #305973;
+  border-radius: 3px;
+  transition: ease-in-out 0.3s;
+}
+
+button:hover {
+  background-color: #BBD6B8;
+  color: #305973;
+  border: ipx solid #BBD6B8;
+}
+
+button:active {
+  background-color: #305973;
+  color: #DBE4C6;
+  border: 1px solid #305973;
+  box-shadow: 2px 2px 5px #94af9f;
 }
