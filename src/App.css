@@ -1,104 +1,104 @@
 .App {
-  display: block;
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 12px;
-  color: #f9f9f9;
+	display: block;
+	margin: 0 auto;
+	max-width: 600px;
+	padding: 12px;
+	  color: #f9f9f9;
 }
 
 h1, h6 {
-  text-align: center;
+	text-align: center;
 }
 
 h6 {
-  margin: 0;
+	margin: 0;
 }
 
 h3, h6 {
-  margin: 12px;
+	margin: 12px;
 }
 
 .form {
-  color: #395973;
-  border: 1px solid #395973;
-  padding: 12px;
-  border-radius: 3px;
-  background-color: #f9f9f9;
-  margin: 12px;
+	color: #395973;
+	border: 1px solid #395973;
+	padding: 12px;
+	border-radius: 3px;
+	background-color: #f9f9f9;
+	margin: 12px;
 }
 
 .form label, p {
-  background-color: #f9f9f9;
+  	background-color: #f9f9f9;
 }
 
 .form label, input {
-  display: block;
-  margin-bottom: 7px;
+	display: block;
+	margin-bottom: 7px;
 }
 
 .form input, textarea, select {
-  width: 100%;
-  margin-bottom: 0;
-  color: #395973;
-  background-color: #fff;
-  border: 0.3px solid #395973;
-  border-radius: 3px;
+	width: 100%;
+	margin-bottom: 0;
+	color: #395973;
+	background-color: #fff;
+	border: 0.3px solid #395973;
+	border-radius: 3px;
 }
 
 .form input::placeholder{
-  color: #395973;
+  	color: #395973;
 }
 
 .form textarea {
-  margin-bottom: 3px;
-  height: 100px;
+	margin-bottom: 3px;
+	height: 100px;
 }
 
 .form .inputText {
-  display: flex;
-  font-size: small;
+	display: flex;
+	font-size: small;
 }
 
 .form .radio {
-  float: left;
-  padding: 0;
-  margin: auto;
-  width: 7%;
+	float: left;
+	padding: 0;
+	margin: auto;
+	width: 7%;
 }
 
 .form p {
-  font-size: x-small;
-  margin-top: 0;
-  padding-top: 0;
+	font-size: x-small;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 hr {
-  height: .1px;
-  background-color: #395973;
-  border: none;
+	height: .1px;
+	background-color: #395973;
+	border: none;
 }
 
 button {
-  display: block;
-  margin: 0 auto;
-  padding: 5px 12px;
-  margin-top: 7px;
-  background-color: #305973;
-  color: #DBE4C6;
-  border: 1px solid #305973;
-  border-radius: 3px;
-  transition: ease-in-out 0.3s;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 12px;
+	margin-top: 7px;
+	background-color: #305973;
+	color: #DBE4C6;
+	border: 1px solid #305973;
+	border-radius: 3px;
+	transition: ease-in-out 0.3s;
 }
 
 button:hover {
-  background-color: #BBD6B8;
-  color: #305973;
-  border: ipx solid #BBD6B8;
+	background-color: #BBD6B8;
+	color: #305973;
+	border: ipx solid #BBD6B8;
 }
 
 button:active {
-  background-color: #305973;
-  color: #DBE4C6;
-  border: 1px solid #305973;
-  box-shadow: 2px 2px 5px #94af9f;
+	background-color: #305973;
+	color: #DBE4C6;
+	border: 1px solid #305973;
+	box-shadow: 2px 2px 5px #94af9f;
 }
